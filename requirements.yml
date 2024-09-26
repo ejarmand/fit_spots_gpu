@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+
+dependencies:
+  - python >= 3.8,<=3.11
+  - pytorch >=2.2
+  - cudatoolkit=12.1
+  - torchvision
+  - torchaudio
+  - scipy >=1.6
+  - numpy >=1.20,<=2.0
+  - pip:
+    - nvidia-cudnn-cu12==8.9.7.29
+    - zarr>=2.10
+    - dask>=2023
