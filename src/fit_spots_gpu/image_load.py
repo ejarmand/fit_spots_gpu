@@ -34,7 +34,7 @@ def read_im(path,return_pos=False):
     return image
 
 
-def load_image_dir(analysis_folder='/projects/ps-renlab2/zgibbs/STARR-FISH/10_12_2023__CRE-20_RNASEQ'):
+def load_image_dir(analysis_folder='.'):
     hybes = os.listdir(analysis_folder)
     fovs = os.listdir(analysis_folder+os.sep+hybes[0])
     combinations = list(product(hybes,fovs))

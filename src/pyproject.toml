@@ -1,0 +1,14 @@
+[project]
+name = "fit_spots_gpu"
+
+authors = [
+    {name = "Ethan J Armand", email = "earmand@ucsd.edu"}
+]
+description = "fig_spots_gpu : faster spot fitting of merfish images using gpus"
+
+requires-python = ">=3.8,<=3.11"
+
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+where = ['.']

@@ -15,3 +15,4 @@ dependencies:
     - nvidia-cudnn-cu12==8.9.7.29
     - zarr>=2.10
     - dask>=2023
+    - cupy-cuda12x >= 12
