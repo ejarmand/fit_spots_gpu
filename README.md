@@ -5,6 +5,10 @@ usign fast gpu algorithms.
 
 These are a modification of code written by Bogdan Bintu.
 
+## Disclaimer! 
+
+The following repository is a draft and has only been tested on synthetic images
+
 ### Installation
 
 install requirements:
@@ -18,7 +22,7 @@ then install the package with pip:
 
 ```pip install -e src```
 
-### eample usage
+### example usage
 
 ```python
 from fit_spots_gpu import SpotFitter
@@ -48,4 +52,3 @@ for hybe, fov in tqdm(img_zarr_files):
             Xh = fitter.fit(hybe, fov, ch)
             np.savez_compressed(save_file, Xh=Xh)
 ```
-
