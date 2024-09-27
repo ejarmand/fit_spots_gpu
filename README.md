@@ -11,6 +11,14 @@ The following repository is a draft and has only been tested on synthetic images
 
 ### Installation
 
+First download this repository and enter the directory:
+
+```
+git clone https://github.com/ejarmand/spot_fitting_gpu.git
+cd spot_fitting_gpu
+```
+
+
 install requirements:
 
 ```mamba create -n fit_spots_gpu -f requirements.yml``
