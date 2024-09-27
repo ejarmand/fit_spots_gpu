@@ -1,4 +1,4 @@
-# GPU Spot Fitting
+# fit spots GPU
 
 This repo conatians the code to perform spot fitting of merfish images
 usign fast gpu algorithms.
@@ -24,6 +24,7 @@ install requirements:
 ```mamba create -n fit_spots_gpu -f requirements.yml``
 
 or to add requirements to existing env (claiming no responsibility if it breaks):
+
 ```mamba env update -f requirements.yml```
 
 then install the package with pip:
